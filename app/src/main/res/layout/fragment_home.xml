@@ -7,6 +7,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#dfede9"
         tools:context=".HomeFragment">
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -38,7 +39,8 @@
             android:layout_height="match_parent"
             android:id="@+id/emptyNotesImage"
             android:visibility="gone"
-            android:src="@drawable/emptybkg"/>
+            android:src="@drawable/emptybkg"
+            android:scaleType="fitXY"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
